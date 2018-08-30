@@ -11,7 +11,7 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 import Root from "./src/main";
 
-export default class TaxiAppClone extends Component {
+class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -39,3 +39,5 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+export default App

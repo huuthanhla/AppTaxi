@@ -1,14 +1,11 @@
-import React from "react";
-import { Actions, Scene } from "react-native-router-flux";
-import HomeContainer from "./Home/container/HomeContainer";
-import TrackDriverContainer from "./TrackDriver/container/TrackDriverContainer";
+import React from 'react'
+import {Actions, Scene} from 'react-native-router-flux'
+import HomeContainer from './Home/container/HomeContainer'
 
 const scenes = Actions.create(
-	<Scene key="root" hideNavBar>
-		<Scene key="home" component={HomeContainer} title="home" initial />
-		<Scene key="trackDriver" component={TrackDriverContainer} title="trackDriver"/>
-	</Scene>
+  <Scene key="root">
+    <Scene key="home" component={HomeContainer} title="home" initial />
+  </Scene>
+)
 
-);
-
-export default scenes;
+export default scenes

@@ -1,11 +1,9 @@
 import { combineReducers } from "redux";
-import { HomeReducer as home } from "../routes/Home/module/home";
-import { TrackDriverReducer as trackDriver } from "../routes/TrackDriver/module/trackDriver";
+import { HomeReducer as home} from '../routes/Home/module/home'
 
 export const makeRootReducer = () => {
 	return combineReducers({
-		home,
-		trackDriver
+		home
 	});
 }
 

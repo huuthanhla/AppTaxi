@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
 import createStore from './store/createStore';
+import AppContatiner from './AppContainer'
 
 class Root extends Component {
   renderApp() {
@@ -8,7 +8,7 @@ class Root extends Component {
     const store = createStore(inititalState)
 
     return (
-      
+      <AppContatiner store={store} />
     )
   }
 
