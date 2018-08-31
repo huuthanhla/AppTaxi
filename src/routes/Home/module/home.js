@@ -6,7 +6,7 @@ const { SET_NAME } = constants;
 export function setName() {
   return {
     type: SET_NAME,
-    payload: "Eman"
+    payload: "Nikolas"
   }
 }
 
