@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
 import { Router } from "react-native-router-flux";
-
+import { View, StatusBar } from 'react-native'
 import scenes from "../routes/scenes";
 
 import { Provider } from "react-redux";
@@ -14,7 +14,7 @@ export default class AppContainer extends Component {
 	render(){
 		return (
 			<Provider store={this.props.store}>
-				<Router scenes={scenes} />
+					<Router scenes={scenes} />
 			</Provider>
 		);
 	}

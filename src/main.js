@@ -4,8 +4,8 @@ import AppContatiner from './AppContainer'
 
 class Root extends Component {
   renderApp() {
-    const inititalState = window.__INTITIAL_STATE__;
-    const store = createStore(inititalState)
+    const initialState = window.__INTITIAL_STATE__;
+    const store = createStore(initialState)
 
     return (
       <AppContatiner store={store} />
