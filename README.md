@@ -7,10 +7,6 @@ npm install react-redux redux redux-thunk react-native-router-flux react-addons-
 npm install redux-logger --save-dev
 ```
 
-## Integration with Existing Apps
-
-[http://facebook.github.io/react-native/docs/integration-with-existing-apps](http://facebook.github.io/react-native/docs/integration-with-existing-apps)
-
 ## Adding GoogleMaps
 add module
 ```
@@ -57,3 +53,8 @@ pod 'GoogleMaps'  # Remove this line if you don't want to support GoogleMaps on 
 pod 'Google-Maps-iOS-Utils' # Remove this line if you don't want to support GoogleMaps on iOS
 
 ```
+
+
+## Integration
+Replace ios start project as Swift
+[http://facebook.github.io/react-native/docs/integration-with-existing-apps](http://facebook.github.io/react-native/docs/integration-with-existing-apps)
